@@ -3430,6 +3430,7 @@
             
             <activity android:name="com.opextra.settings.fragments.HAFRAppListActivity" />
 
+
         <activity android:name=".Settings$OnePlusExtraSettingsActivity"
                   android:label="@string/opextra_settings_title"
                   android:icon="@drawable/ic_settings_opextra">
