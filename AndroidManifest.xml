@@ -3430,8 +3430,7 @@
             
             <activity android:name="com.opextra.settings.fragments.HAFRAppListActivity" />
 
-           <!— This is the longest AndroidManifest.xml ever. —>
-        <activity android:name=".Settings$OnePlusExtraSettingsActivity"
+           <activity android:name=".Settings$OnePlusExtraSettingsActivity"
                   android:label="@string/opextra_settings_title"
                   android:icon="@drawable/ic_settings_opextra">
             <intent-filter android:priority="10">
