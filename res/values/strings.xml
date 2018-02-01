@@ -9060,4 +9060,7 @@
      
      <!-- OPsettings title -->
      <string name="opextra_settings_title">OnePlus Extras</string>
+     
+     <!-- OPsettings description -->
+     <string name="opextra_settings_summary">Dope stuff for our OnePlus phones</string>
 </resources>
