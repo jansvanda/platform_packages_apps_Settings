@@ -3428,7 +3428,7 @@
 
         <!-- This is the longest AndroidManifest.xml ever. -->
             
-            <activity android:name="com.oneplusextra.settings.fragments.HAFRAppListActivity" />
+            <activity android:name="com.opextra.settings.fragments.HAFRAppListActivity" />
 
            <!— This is the longest AndroidManifest.xml ever. —>
         <activity android:name=".Settings$OnePlusExtraSettingsActivity"
@@ -3440,7 +3440,7 @@
             <meta-data android:name="com.android.settings.category"
                        android:value="com.android.settings.category.ia.homepage"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.beast.settings.OnePlusExtraSettings"/>
+                       android:value="com.opextra.settings.OnePlusExtraSettings"/>
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/opextra_settings_summary"/>
         </activity>
