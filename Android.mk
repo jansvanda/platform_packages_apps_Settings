@@ -18,7 +18,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src) \
-                   $(call all-java-files-under, ../Extensions/src)
+                   $(call all-java-files-under, ../Extensions/src) \
 		   $(call all-java-files-under, ../OnePlusExtraSettings/src)
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
@@ -26,7 +26,7 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
-    packages/apps/Extensions/res
+    packages/apps/Extensions/res \
     packages/apps/OnePlusExtraSettings/res
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
@@ -60,7 +60,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v17.preference \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
-    --extra-packages org.aospextended.extensions
+    --extra-packages org.aospextended.extensions \
     --extra-packages com.opextra.settings
 
 ifneq ($(INCREMENTAL_BUILDS),)
