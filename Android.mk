@@ -28,6 +28,7 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/recyclerview/res \
     packages/apps/Extensions/res
     packages/apps/OnePlusExtraSettings/res
+    nothing
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v4 \
