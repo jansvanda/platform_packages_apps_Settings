@@ -3431,7 +3431,7 @@
             <activity android:name="com.opextra.settings.fragments.HAFRAppListActivity" />
 
 
-        <activity android:name=".Settings$OnePlusExtraSettingsActivity"
+        <activity android:name=".Settings$OnePlusExtraActivity"
                   android:label="@string/opextra_settings_title"
                   android:icon="@drawable/ic_settings_opextra">
             <intent-filter android:priority="10">
@@ -3440,7 +3440,7 @@
             <meta-data android:name="com.android.settings.category"
                        android:value="com.android.settings.category.ia.homepage"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.opextra.settings.OnePlusExtraSettings"/>
+                       android:value="com.opextra.settings.OnePlusExtra"/>
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/opextra_settings_summary"/>
         </activity>
